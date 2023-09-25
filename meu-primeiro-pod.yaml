@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: RBX
-  name: RBX
+    run: rbx
+  name: rbx
 spec:
   containers:
   - image: nginx
-    name: RBX
+    name: rbx
     ports:
     - containerPort: 80
     resources: {}
