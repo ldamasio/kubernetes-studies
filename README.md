@@ -44,10 +44,8 @@ kubectl completion bash > ~/.kube/completion.bash.inc
 
 # ~/.profile
 
-```
-source /root/.kube/completion.bash.inc
-alias k="kubectl"
-```
+> source /root/.kube/completion.bash.inc
+> alias k="kubectl"
 
 ```
 source ~/.profile
